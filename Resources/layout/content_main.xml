@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ViewNameTextView"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text= "@string/ViewCheckBox"/>
+    <CheckBox
+        android:id="@+id/cbOwnCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/twAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ViewAgeOfCarTextView"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:visibility="invisible"
+        android:inputType="numberSigned"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewSaveButton"/>
+
+    <TextView
+        android:id="@+id/twFourWheeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewFourWheelTextView"
+        android:visibility="invisible"/>
+    <ToggleButton
+        android:id="@+id/tbFourWheeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="@string/ToggleNo"
+        android:textOn="@string/ToggleYes"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/twType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewTypeTextView"
+        android:visibility="invisible"/>
+    <RadioButton
+        android:id="@+id/rbStationWagon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/RadioStationWagon"
+        android:visibility="invisible"/>
+    <RadioButton
+        android:id="@+id/rbSedan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RadioSedan"
+        android:visibility="invisible"/>
+    <RadioButton
+        android:id="@+id/rbSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RadioSport"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ViewSummaryTextView"/>
+    <TextView
+        android:id="@+id/twSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ViewSummaryPlaceholderTextView"
+        android:background="#4CAF50"/>
+
+</LinearLayout>

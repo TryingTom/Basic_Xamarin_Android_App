@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Task_3_Finished_but_better</string>
+    <string name="action_settings">Settings</string>
+    <string name="ViewNameTextView">Name:</string>
+    <string name="ViewCheckBox">Do you have a car?</string>
+    <string name="ViewAgeOfCarTextView">Age of your car:</string>
+    <string name="ViewSaveButton">Save</string>
+    <string name="ViewSummaryTextView">Summary:</string>
+    <string name="ViewSummaryPlaceholderTextView">Your text will appear here</string>
+    <string name="NewLine">\n</string>
+    <string name="AdvancedOptions">Advanced options</string>
+    <string name="ViewFourWheelTextView">4 wheel drive?</string>
+    <string name="ViewTypeTextView">Type:</string>
+
+    <string name="ToggleYes">Yes</string>
+    <string name="ToggleNo">No</string>
+
+    <string name="RadioStationWagon">Station Wagon</string>
+    <string name="RadioSedan">Sedan</string>
+    <string name="RadioSport">Sport</string>
+</resources>
